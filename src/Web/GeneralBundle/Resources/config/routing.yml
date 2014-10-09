@@ -1,0 +1,6 @@
+general_homepage:
+    pattern:  /
+    defaults: { _controller: GeneralBundle:General:index }
+seccion:
+    pattern: /{name}
+    defaults: {_controller: GeneralBundle:General:seccion}
