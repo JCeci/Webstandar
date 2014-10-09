@@ -4,3 +4,6 @@ general_homepage:
 seccion:
     pattern: /seccion/{name}
     defaults: {_controller: GeneralBundle:General:seccion}
+producto:
+	pattern: /producto/{name}
+    defaults: {_controller: GeneralBundle:General:producto}
