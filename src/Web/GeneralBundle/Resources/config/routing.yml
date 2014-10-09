@@ -2,5 +2,5 @@ general_homepage:
     pattern:  /
     defaults: { _controller: GeneralBundle:General:index }
 seccion:
-    pattern: /{name}
+    pattern: /seccion/{name}
     defaults: {_controller: GeneralBundle:General:seccion}
