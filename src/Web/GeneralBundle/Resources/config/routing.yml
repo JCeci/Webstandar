@@ -2,8 +2,11 @@ general_homepage:
     pattern:  /
     defaults: { _controller: GeneralBundle:General:index }
 seccion:
-    pattern: /seccion/{name}
+    pattern: /seccion/{name}/
     defaults: {_controller: GeneralBundle:General:seccion}
 producto:
-	pattern: /producto/{name}
+    pattern: /producto/{name}/
     defaults: {_controller: GeneralBundle:General:producto}
+noticia:
+    pattern: /noticia/{name}/
+    defaults: {_controller: GeneralBundle:General:noticia}

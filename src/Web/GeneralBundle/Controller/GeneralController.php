@@ -19,4 +19,5 @@ class GeneralController extends Controller
     	$name='mensaje seccion';
         return $this->render('GeneralBundle:General:index.html.twig', array('name' => $name));
     }
+    
 }
